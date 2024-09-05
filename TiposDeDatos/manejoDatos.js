@@ -22,4 +22,13 @@ console.log("hola".concat(" ","Mundo","Forma"));
 console.log("hola mundo".endsWith("do"));
 
 //indexOf
+console.log("Hola mundo".indexOf("o", 0))
 
+//split
+console.log("Hola mundo".split(" "))
+
+//toLowerCase
+console.log("Hola Mundo".toLowerCase())
+
+//Conver Number
+console.log(Number(new Date()))
