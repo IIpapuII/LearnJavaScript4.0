@@ -17,3 +17,11 @@ function resta(a, b){
     var aux = a - b;
     total = aux;
 }
+
+try {
+    allert('Hola Mundo');
+}catch (error){
+    console.log(error.message);
+}finally {
+    console.log('Esto se ejecuta siempre');
+}
